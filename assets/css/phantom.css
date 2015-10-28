@@ -95,12 +95,15 @@ strong {
 	z-index:-1;
 	position:relative;
 }
-.container, .pagination {
+.container {
+    position:relative;
+    width:720px;
+    margin:0 auto;
+}
+.pagination {
 	position:relative;
 	width:500px;
 	margin:0 auto;
-}
-.pagination {
 	text-align: center;
 	font-size: 13px;
 }
