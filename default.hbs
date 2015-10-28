@@ -84,7 +84,10 @@
         <script src="{{asset 'js/phantom.js'}}"></script>
         <script src="{{asset 'js/jquery.timeago.min.js'}}"></script>
 
-        <script>jQuery(document).ready(function() { jQuery("time.timeago").timeago(); });</script>
+        <script>jQuery(document).ready(function() {
+            jQuery("time.timeago").timeago();
+            hljs.initHighlightingOnLoad(); });
+        </script>
 
     </body>
 </html>
